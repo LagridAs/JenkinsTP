@@ -5,7 +5,7 @@ pipeline {
       steps {
         bat 'gradle build'
         bat 'gradle javadoc'
-        bat 'gradle artifacts build/libs/*.jar'
+        bat 'archive artifacts'
       }
     }
 
