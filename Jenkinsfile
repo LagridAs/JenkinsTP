@@ -6,6 +6,8 @@ pipeline {
         bat 'gradle build'
         bat 'gradle javadoc'
         archiveArtifacts 'build/libs/*.jar'
+        archiveArtifacts 'build/docs'
+        junit 'build/test-results'
       }
     }
 
