@@ -19,7 +19,9 @@ pipeline {
 
     stage('Code Analysis') {
       steps {
-        bat 'gradle sonarqube'
+        withSonarQubeEnv 'sonar'
+        bat 'C:\\Users\\asmaa lagrid\\Downloads\\SIL1\\OUTIL\\gradle-6.0.1\\bin\\gradle sonarQube'
+        waitForQualityGate true
       }
     }
 
