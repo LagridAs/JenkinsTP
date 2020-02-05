@@ -39,12 +39,23 @@ pipeline {
     }
 
     stage('Deployement') {
+      when{
+        expression{
+          env.CHANGE_ID == NULL
+        }
+      }
+
       steps {
         bat 'gradle publish'
       }
     }
 
     stage('Slack Notification') {
+      when{
+        expression{
+           env.CHANGE_ID == NULL
+        }
+      }
       steps {
         slackSend(channel: 'tpjenkins', message: 'heyoooo jenkins', sendAsText: true, notifyCommitters: true, replyBroadcast: true, token: 'TTLSJ5YJ3/BT8S57H3K/Vk9v7S1b7pyHZzIkixSMDfxw', baseUrl: 'https://hooks.slack.com/services', teamDomain: 'tpjenkins-groupe')
       }
