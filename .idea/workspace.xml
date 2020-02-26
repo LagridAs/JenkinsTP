@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="073e1ccd-8293-414c-89b6-37a4b33acce4" name="Default Changelist" comment="" />
+    <list default="true" id="ab86e8a3-0943-48c7-a6d8-1329ab73a303" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
-  </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ProjectId" id="1V3XW2vaYigASDnyc9GRYqiD8Vw" />
+  <component name="ProjectId" id="1YK19kgPR7bHWLra93TGHGgkosK" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ancien/Lib Junit/hamcrest-core-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\asmaa lagrid\IdeaProjects\Calculmat" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,29 +30,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MatrixMathematicsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.MatrixMathematicsTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="MatrixMathematicsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.MatrixMathematicsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MatrixMathematicsTest" />
+        <item itemvalue="JUnit.MatrixMathematicsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -75,20 +56,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="073e1ccd-8293-414c-89b6-37a4b33acce4" name="Default Changelist" comment="" />
-      <created>1576482780719</created>
+      <changelist id="ab86e8a3-0943-48c7-a6d8-1329ab73a303" name="Default Changelist" comment="" />
+      <created>1582676322265</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576482780719</updated>
-      <workItem from="1576482788656" duration="823000" />
-      <workItem from="1576483766837" duration="10245000" />
+      <updated>1582676322265</updated>
+      <workItem from="1582676329815" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled$MatrixMathematicsTest.ic" NAME="MatrixMathematicsTest Coverage Results" MODIFIED="1576485606729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
