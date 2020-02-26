@@ -13,7 +13,7 @@ pipeline {
 
     stage('Mail Notification') {
       steps {
-        mail(subject: 'Test Jenkins', body: 'heloo', to: 'ga_lagrid@esi.dz', cc: 'ga_goumeida@esi.dz', replyTo: 'ga_lagrid@esi.dz')
+        mail(subject: 'Test Jenkins', body: 'heloo', to: 'ga_fedala@esi.dz', cc: 'gn_fodil@esi.dz', replyTo: 'ga_fedala@esi.dz')
       }
     }
 
