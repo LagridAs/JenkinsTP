@@ -1,6 +1,8 @@
 package com.exception;
 
 public class NoSquareException extends Exception {
+	
+	
 
 	public NoSquareException() {
 		super();
